@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Space+Mono:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration:underline;
+    text-decoration-color: hsl(0, 54%, 68%);
+}
+
+p{
+    user-select: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: "Space mono";
+    background-color: #141D2F;
+    align-items: center;
+    transition: all 0.6s;
+}
+
+.Parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 375px;
+    position: relative;
+}
+
+.Outofbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 110px;
+    margin-top: 31px;
+}
+
+.Icon{
+    position: absolute;
+    top: 125px;
+    left: 40px;
+}
+
+.Lightordark{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.Finder{
+    color: #FFF;
+    font-family: "Space Mono";
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.Theme{
+    color: #FFF;
+    text-align: right;
+    font-family: "Space Mono";
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+}
+
+.SearchAndButton{
+    position: relative;
+    width: 327px;
+    height: 60px;
+}
+
+.GithubSearch{
+    padding-left: 45px;
+    margin-top: 35px;
+    border: none;
+    width: 327px;
+    height: 60px;
+    border-radius: 15px;
+    background: #1E2A47;
+    outline: none;
+    color: #FFF;
+    font-family: "Space Mono";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 192.308%;
+}
+
+.GithubSearch::placeholder{
+    position: absolute;
+    color: #FFF;
+    font-family: "Space Mono";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 192.308%;
+}
+
+.Search{
+    border: none;
+    width: 84px;
+    height: 46px;
+    border-radius: 10px;
+    background: #0079FF;
+    position: absolute;
+    cursor: pointer;
+    color: #FFF;
+    font-family: "Space Mono";
+    font-size: 14px;
+    font-weight: 700;
+    top: 111px;
+    right: 31px;
+}
+
+.Mainbox{
+    width: 327px;
+    height: 517px;
+    border-radius: 15px;
+    background: #1E2A47;
+    margin-top: 16px;
+    position: relative;
+}
+
+.foto{
+   position: absolute;
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   top: 32px;
+   left: 24px;
+}
+
+.Name{
+    position: absolute;
+    color: #FFF;
+    font-family: "Space Mono";
+    font-size: 16px;
+    font-weight: 700;
+    left: 111px;
+    top: 33px;
+}
+
+.Tag-p{
+    position: absolute;
+    top: 57px;
+    left: 114px;
+    color: #0079FF;
+    font-family: "Space Mono";
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.Tag{
+    color: #0079FF;
+    font-family: "Space Mono";
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.Joined{
+    color: #FFF;
+    font-family: "Space Mono";
+    font-size: 13px;
+    font-weight: 400;
+    position: absolute;
+    top: 82px;
+    left: 114px;
+}
+
+.Bio{
+    width: 279px;
+    color: #FFF;
+    font-family: "Space Mono";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 192.308%;
+    position: absolute;
+    top: 135px;
+    left: 24px;
+    opacity: 0.8;
+}
+
+.Black{
+    width: 279px;
+    height: 85px;
+    border-radius: 10px;
+    background: #141D2F;
+    position: absolute;
+    top: 233px;
+    left: 24px;
+  
+}
+
+.Text{
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    position: absolute;
+    left: 15px;
+    top: 18px;
+}
+
+.Texts{
+    width: 79px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Space Mono";
+    font-size: 11px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+
+.Spans{
+    width: 79px;
+    height: 24px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Space Mono";
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.Lastdiv{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 342px;
+    left: 24px;
+    row-gap: 16px;
+}
+
+.Photoandtext{
+    display: flex;
+    flex-direction: row;
+    column-gap: 19.25px;
+}
+
+.Color{
+    color: #FFF;
+    font-family: "Space Mono";
+    font-size: 13px;
+    font-weight: 400;
+    width: 220px;
+    word-break: break-all;
+}
+
+.GithubGithublink{
+    user-select:all;
+}
+
+.NotSelect{
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    cursor: default;
+}
+
+
+.Checkdata2grey{
+    color: #A5B4CC;
+    
+}
+
+.Cursor{
+    cursor:wait;
+}
+
+.Getbackground{
+    background-color:  #F6F8FF;
+}
+
+.Getwhites{
+    background-color: white;
+}
+
+.Getcolor::placeholder{
+    color: #4B6A9B;
+}
+
+.Getblue{
+    color: #4B6A9B;
+}
+
+.Getblack{
+    color: #222731;
+}
+
+.Getgrey{
+    background: #F6F8FF;
+}
+
+.Getsvgfiller{
+    fill: #4B6A9B;
+}
+
+
+.Grey{
+    color: grey;
+    text-decoration: none;
+}
+
+.Fillergrey{
+    fill: grey;
+}
+
+.Error{
+    top: 85px;
+    left: 271px;
+    position: absolute;
+    z-index: 10;
+    color: #F74646;
+    font-family: "Space Mono";
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.Noselect{
+    cursor: default;
+}
