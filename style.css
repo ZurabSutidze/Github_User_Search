@@ -331,3 +331,8 @@ body{
 .Noselect{
     cursor: default;
 }
+.change1,.change2{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}

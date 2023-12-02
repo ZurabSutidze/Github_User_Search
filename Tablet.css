@@ -1,4 +1,71 @@
-@media (width > 768px) {
-    
- 
+@media (width>768px){
+    .Outofbox{
+        width: 573px;
+        gap: 359px;
+    }
+
+    .GithubSearch{
+        width: 573px;
+        margin-left: -6px;
+        padding-left: 100px;
+    }
+    .Icon{
+        left:-65px;
+    }
+    .Search{
+        right:-85px;
+    }
+    .Mainbox{
+        width: 573px;
+        height: 481px;
+    }
+    .foto{
+        width: 117px;
+        height: 117px;
+        top: 15px;
+    }
+    .Name{
+        font-size: 26px;
+        width: 500px;
+        left: 180px;
+    }
+    .Tag-p{
+        top: 65px;
+    left: 183px;
+    font-size: 16px;
+
+    }
+    .Joined{
+        top: 88px;
+        left: 182px;
+    }
+    .Bio{
+        width: 493px;
+        margin-left: 40px;
+        margin-top: 38px;
+        font-size: 15px;
+    }
+    .Black{
+        width: 493px;
+        gap: 90px;
+            left: 52px;
+            margin-top: 32px;
+
+    }
+    .Text{
+        font-size: 13px;
+        gap: 55px;
+        left: 56px;
+
+
+    }
+    .Spans, .Texts{
+        text-align: left;
+    }
+    .Lastdiv{
+        display: grid;
+        grid-template-columns: auto auto ;
+        margin-top: 40px;
+        margin-left: 35px;
+    }
 }

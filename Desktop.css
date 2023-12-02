@@ -1,0 +1,66 @@
+@media(width>1440px){
+    .Outofbox{
+
+        width: 730px;
+        gap: 524px;
+    }
+    .GithubSearch{
+        margin-top: 36px;
+        width: 730px;
+        margin-left: -6px;
+        padding-left: 85px;
+    }
+    .Icon{
+        left:-140px;
+    }
+    .Search{
+        right:-165px;
+    }
+    .Mainbox{
+        width: 730px;
+        height: 500px;
+        margin-top: 24px;
+
+    }
+    .foto{
+        top: 48px;
+        left: 48px;
+    }
+    .Name{
+        top: 44px;
+        width: 500px;
+        left: 202px;
+    }
+    .Tag-p{
+        left: 205px;
+        top: 85px;
+
+
+    }
+    .Joined{
+        top: 58px;
+        left: 544px;
+    }
+    .Bio{
+        margin-left: 180px;
+    margin-top: 15px;
+    }
+    .Black{
+        width: 480px;
+        gap: 90px;
+            left: 200px;
+            margin-top: 0px;
+
+    }
+    .Lastdiv{
+        margin-left: 178px;
+    }
+    input:hover{
+        cursor: pointer;
+    }
+    button:hover{
+       background:#60ABFF;
+       transition: 1s;
+    }
+
+}
